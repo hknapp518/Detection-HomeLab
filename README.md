@@ -26,3 +26,5 @@ Design and implement a cybersecurity environment comprising four distinct Virtua
 
 
 ## Steps
+
+Step 1- Design ![Diagram Active Directory Final](https://github.com/hknapp518/HomeLab/assets/125601731/ddbfe115-7637-4956-b199-a4cff686b3bd)
