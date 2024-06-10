@@ -2,22 +2,26 @@
 
 ## Objective
 
-Get hands on experience connecting Azure Sentinel (SIEM) to an Azure Windows 10 VM acting as a honey pot. Observe live attacks (RDP Brute Force) from all over the world. Use a custom PowerShell script to connect to  IP Geolocation to pinpoint the exact location on Azure Sentinel Map and make a report.
+Design and implement a cybersecurity environment comprising four distinct Virtual Machines (VMs) using Oracle VirtualBox: Active Directory, Splunk, Kali Linux, and Atomic Red Team. Establish user accounts within the Active Directory VM. Integrate a NAT network configuration with static IP addressing across all VMs to enable seamless communication for event ingestion into Splunk. Utilize Atomic Red Team to simulate real-world attack scenarios aligned with the MITRE ATT&CK framework, generating actionable telemetry data for analysis and mitigation.
 
 ### Skills Learned
 
-- Configuration with Azure Sentinel workbook.
-- Configuring Log Analytics Workspace in Azure to ingest custom logs containing geographic location.
-- Custom PowerShell script to extract metadata from Windows Event Viewer to be forwarded to third party API to extract 
-  geolocation data
-- Using third party API like IP Geolocation
+Virtualization: Proficiency in setting up and configuring virtual machines using tools like Oracle VirtualBox.
+Networking: Knowledge of networking concepts including NAT configuration and IP addressing for inter-VM communication.
+Active Directory Management: Ability to create and manage user accounts within an Active Directory environment.
+Security Tools: Familiarity with security tools such as Splunk for log management and analysis.
+Penetration Testing: Experience with Kali Linux for conducting penetration tests and vulnerability assessments.
+Threat Simulation: Understanding of threat emulation frameworks like Atomic Red Team for simulating real-world attack scenarios.
+MITRE ATT&CK Framework: Knowledge of the MITRE ATT&CK framework for mapping and categorizing cyber threats and techniques.
 
 
 ### Tools Used
 
-- Microsoft Sentinel (SIEM) 
-- PowerShell
-- Log Analytics Workspace
-- IP Geolocation
+Oracle VirtualBox 
+Active Directory
+Splunk
+Kali Linux
+Atomic Red Team
+MITRE ATT&CK Framework
 
 ## Steps
