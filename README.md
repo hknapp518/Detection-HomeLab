@@ -6,22 +6,23 @@ Design and implement a cybersecurity environment comprising four distinct Virtua
 
 ### Skills Learned
 
-Virtualization: Proficiency in setting up and configuring virtual machines using tools like Oracle VirtualBox.
-Networking: Knowledge of networking concepts including NAT configuration and IP addressing for inter-VM communication.
-Active Directory Management: Ability to create and manage user accounts within an Active Directory environment.
-Security Tools: Familiarity with security tools such as Splunk for log management and analysis.
-Penetration Testing: Experience with Kali Linux for conducting penetration tests and vulnerability assessments.
-Threat Simulation: Understanding of threat emulation frameworks like Atomic Red Team for simulating real-world attack scenarios.
-MITRE ATT&CK Framework: Knowledge of the MITRE ATT&CK framework for mapping and categorizing cyber threats and techniques.
+- Virtualization: Proficiency in setting up and configuring virtual machines using tools like Oracle VirtualBox.<br>
+- Networking: Knowledge of networking concepts including NAT configuration and IP addressing for inter-VM communication.<br>
+- Active Directory Management: Ability to create and manage user accounts within an Active Directory environment.<br>
+- Security Tools: Familiarity with security tools such as Splunk for log management and analysis.<br>
+- Penetration Testing: Experience with Kali Linux for conducting penetration tests and vulnerability assessments.<br>
+- Threat Simulation: Understanding of threat emulation frameworks like Atomic Red Team for simulating real-world attack scenarios.<br>
+- MITRE ATT&CK Framework: Knowledge of the MITRE ATT&CK framework for mapping and categorizing cyber threats and techniques.<br>
 
 
 ### Tools Used
 
-Oracle VirtualBox 
-Active Directory
-Splunk
-Kali Linux
-Atomic Red Team
-MITRE ATT&CK Framework
+- Oracle VirtualBox<br> 
+- Active Directory<br>
+- Splunk<br>
+- Kali Linux<br>
+- Atomic Red Team<br>
+- MITRE ATT&CK Framework<br>
+
 
 ## Steps
