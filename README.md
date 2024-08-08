@@ -41,3 +41,6 @@ Step 4- Configure Kali Linux to a static IP address according to the graph.
 
 Step 5- Create a directory called "ad-project" and download Crowbar to perform a brute force attack. 
 ![Create a directory called ad-project and download crowbar to perform a brute for attack ](https://github.com/user-attachments/assets/9e7989c4-4605-4057-b719-d0a135fa4869)
+
+Step 6- Use rockyou.txt as a wordlist for the brute force attack by utilizing the first 20 lines. Open rockyou.txt in Nano and add any password guesses you have for the AD user. We will use RDP in conjunction with Crowbar to brute force the password for the AD user Ana Knapp
+![AD crowbar password break](https://github.com/user-attachments/assets/177e1d59-cdb4-4f47-87c7-005c0b66f807)
