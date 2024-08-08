@@ -45,6 +45,8 @@ Step 5- Create a directory called "ad-project" and download Crowbar to perform a
 Step 6- Use rockyou.txt as a wordlist for the brute force attack by utilizing the first 20 lines. Open rockyou.txt in Nano and add any password guesses you have for the AD user. We will use RDP in conjunction with Crowbar to brute force the password for the AD user Ana Knapp
 ![AD crowbar password break](https://github.com/user-attachments/assets/177e1d59-cdb4-4f47-87c7-005c0b66f807)
 
-Step 7- Now we can open up our Splunk server and see the telemtry we generated during the brute force attack. 
+Step 7- Now we can open up our Splunk server and see the telemtry we generated during the brute force attack. I filtered my results to look for failed log in attempts for Aknapp in index=endpoint AKnapp 4625 .We see the event ID 4265 (account failed to log on). 
 ![Splunk failed login attempts on Aknapp event code 4625 ](https://github.com/user-attachments/assets/915d50bd-4906-4d5a-a507-9306151a1a0b)
+
+Step 8- 
 
