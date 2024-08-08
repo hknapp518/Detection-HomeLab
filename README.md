@@ -29,15 +29,15 @@ Design and implement a cybersecurity environment comprising four distinct Virtua
 
 Step 1- Create a network diagram to show the flow of traffic. Both Windows 10 and the Active Directory server will be forwarding data to the Splunk Server.   ![Diagram Active Directory Final](https://github.com/hknapp518/HomeLab/assets/125601731/ddbfe115-7637-4956-b199-a4cff686b3bd)
 
-Step 2- Open Windows Server VM and promote to a Domain Controller. Create two Organizational Units (IT & HR) and add users in Active Directory.
+Step 2- Open Windows Server VM and promote it to a Domain Controller. Create two Organizational Units (IT & HR) and add users in Active Directory.
 ![Vittoria in HR](https://github.com/user-attachments/assets/a7257fe6-6109-4d51-a59d-e75a5b4502ad)
 ![Ana in Active Directory HR](https://github.com/user-attachments/assets/a17df7ba-ebaf-4eb0-a396-47f7e7f99df1)
 
 Step 3- Configure the Windows 10 machine to join to the AD.
 ![configure my windows 10 machine to join to the AD](https://github.com/user-attachments/assets/77b67a1a-f57a-4f2d-b740-1a6ea0cdcc24)
 
-Step 4- Configure our Kali Linux to a static IP address according to the graph.
+Step 4- Configure Kali Linux to a static IP address according to the graph.
 ![Configure our Kali Linux to a static IP address according to the graph](https://github.com/user-attachments/assets/58d7475d-501d-4862-bb73-37934501c970)
 
-Step 5- Create a directory called "ad-project" and download Crowbar to perform a brute for attack. 
+Step 5- Create a directory called "ad-project" and download Crowbar to perform a brute force attack. 
 ![Create a directory called ad-project and download crowbar to perform a brute for attack ](https://github.com/user-attachments/assets/9e7989c4-4605-4057-b719-d0a135fa4869)
