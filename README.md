@@ -36,4 +36,5 @@ Step 2- Open Windows Server VM and promote to a Domain Controller. Create two Or
 Step 3- Configure the Windows 10 machine to join to the AD.
 ![configure my windows 10 machine to join to the AD](https://github.com/user-attachments/assets/77b67a1a-f57a-4f2d-b740-1a6ea0cdcc24)
 
-
+Step 4- Configure our Kali Linux to a static IP address according to the graph.
+![Configure our Kali Linux to a static IP address according to the graph](https://github.com/user-attachments/assets/58d7475d-501d-4862-bb73-37934501c970)
