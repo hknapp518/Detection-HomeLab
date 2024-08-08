@@ -38,3 +38,6 @@ Step 3- Configure the Windows 10 machine to join to the AD.
 
 Step 4- Configure our Kali Linux to a static IP address according to the graph.
 ![Configure our Kali Linux to a static IP address according to the graph](https://github.com/user-attachments/assets/58d7475d-501d-4862-bb73-37934501c970)
+
+Step 5- Create a directory called "ad-project" and download Crowbar to perform a brute for attack. 
+![Create a directory called ad-project and download crowbar to perform a brute for attack ](https://github.com/user-attachments/assets/9e7989c4-4605-4057-b719-d0a135fa4869)
