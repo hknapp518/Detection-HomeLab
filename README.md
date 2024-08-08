@@ -28,3 +28,5 @@ Design and implement a cybersecurity environment comprising four distinct Virtua
 ## Steps
 
 Step 1- Create a network diagram to show the flow of traffic. Both Windows 10 and the Active Directory server will be forwarding data to the Splunk Server.   ![Diagram Active Directory Final](https://github.com/hknapp518/HomeLab/assets/125601731/ddbfe115-7637-4956-b199-a4cff686b3bd)
+
+Step 2- Create users in Active Directory 
