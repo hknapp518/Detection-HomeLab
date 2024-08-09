@@ -45,10 +45,10 @@ Step 5- Create a directory called "ad-project" and download Crowbar to perform a
 Step 6- Use rockyou.txt as a wordlist for the brute force attack by utilizing the first 20 lines. Open rockyou.txt in Nano and add any password guesses you have for the AD user. We will use RDP in conjunction with Crowbar to brute force the password for the AD user Ana Knapp
 ![AD crowbar password break](https://github.com/user-attachments/assets/177e1d59-cdb4-4f47-87c7-005c0b66f807)
 
-Step 7- Now we can open up our Splunk server and see the telemtry we generated during the brute force attack. I filtered my results to look for failed log in attempts for Aknapp in index=endpoint AKnapp 4625 .We see the event ID 4265 (account failed to log on). 
+Step 7- Now, open the Splunk server to review the telemetry generated during the brute force attack. Filter the results to search for failed login attempts for the user "Aknapp" in the index endpoint with the search query index=endpoint Aknapp 4625. You should observe events with ID 4625, indicating failed login attempts. Look specifically for Event ID 4265, which signifies that the account failed to log on. 
 ![Splunk failed login attempts on Aknapp event code 4625 ](https://github.com/user-attachments/assets/915d50bd-4906-4d5a-a507-9306151a1a0b)
 
-Step 8- Install Atomic Red Team on the Windows 10 client. Use the MITRE ATT&CK Framework to choose which attack you want to perform against the AD user. I used the T1136.001 to create a new Windows admin user in my AD. Then I confirmed the account was created via Splunk.
+Step 8- Install Atomic Red Team on the Windows 10 client. Use the MITRE ATT&CK Framework to select an attack technique to execute against the AD user. For instance, I utilized technique T1136.001 to create a new Windows admin user in Active Directory. Subsequently, I verified the account's creation using Splunk.
 ![Screenshot 2024-05-04 173203](https://github.com/user-attachments/assets/ac688b97-4c96-45c5-8f65-ff4df79e6888)
 ![New Local User in Splunk](https://github.com/user-attachments/assets/1d0140e4-e23d-4abc-8894-ab4ed7fc3a0a)
 
