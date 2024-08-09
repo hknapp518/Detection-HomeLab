@@ -48,5 +48,7 @@ Step 6- Use rockyou.txt as a wordlist for the brute force attack by utilizing th
 Step 7- Now we can open up our Splunk server and see the telemtry we generated during the brute force attack. I filtered my results to look for failed log in attempts for Aknapp in index=endpoint AKnapp 4625 .We see the event ID 4265 (account failed to log on). 
 ![Splunk failed login attempts on Aknapp event code 4625 ](https://github.com/user-attachments/assets/915d50bd-4906-4d5a-a507-9306151a1a0b)
 
-Step 8- 
+Step 8- Install Atomic Red Team on the Windows 10 client. Use the MITRE ATT&CK Framework to choose which attack you want to perform against the AD user. I used the T1136.001 to create a new Windows admin user in my AD. Then I confirmed the account was created via Splunk.
+![Screenshot 2024-05-04 173203](https://github.com/user-attachments/assets/ac688b97-4c96-45c5-8f65-ff4df79e6888)
+![New Local User in Splunk](https://github.com/user-attachments/assets/1d0140e4-e23d-4abc-8894-ab4ed7fc3a0a)
 
