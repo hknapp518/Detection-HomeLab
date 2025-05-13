@@ -1,4 +1,4 @@
-# Detection Home Lab
+# Splunk Detection Home Lab
 
 ## Objective
 
